@@ -28,7 +28,7 @@ RUN echo "node ALL=NOPASSWD: /usr/local/bin/npm" > /etc/sudoers.d/node
 
 USER node
 
-RUN yarn global add expo-cli expo
+RUN yarn global add expo-cli expo react-native
 
 WORKDIR /app
 
